@@ -7,7 +7,6 @@ class Solution {
              //deletes rightmost set bit
              n = n & (n - 1);
          }
-         return count;
 		// while (n != 0) {
 		// 	if((n & 1) == 1) {
 		// 		count++;
