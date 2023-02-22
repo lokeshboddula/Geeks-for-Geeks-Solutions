@@ -1,7 +1,7 @@
 class Solution {
     static int setBits(int n) {
          int count = 0;
-         int count = 0;
+
          while (n > 0) {
              count++;
              //deletes rightmost set bit
